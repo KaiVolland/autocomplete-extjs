@@ -1,0 +1,22 @@
+{
+  "name": "autocomplete-extjs",
+  "version": "0.0.0",
+  "description": "Ext JS autocompletion",
+  "main": "./lib/main",
+  "license": "MIT",
+  "repository": "https://github.com/kaivolland/autocomplete-extjs",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7",
+    "request": "^2.53.0"
+  }
+}

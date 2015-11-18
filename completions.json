@@ -1,0 +1,58 @@
+{
+    "Ext": {
+        "app": {
+            "Application": {
+                "className": "Ext.app.Application",
+                "configs": [{
+                    "name": "appFolder",
+                    "type": "String"
+                }],
+                "methods": [{
+                    "name": "createController",
+                    "params": [{
+                        "name": "name",
+                        "type": "String"
+                    }],
+                    "returns": "Ext.app.Controller"
+                }]
+            },
+            "BaseController": {
+                "className": "Ext.app.BaseController",
+                "configs": [{
+                    "name": "control",
+                    "type": "Object"
+                }],
+                "methods": [{
+                    "name": "getId",
+                    "params": [],
+                    "returns": "String"
+                }]
+            }
+        },
+        "button": {
+            "Button": {
+                "className": "Ext.button.Button",
+                "configs": [{
+                    "name": "alingTarget",
+                    "type": "String"
+                }],
+                "methods": [{
+                    "name": "addAfterListener",
+                    "params": [{
+                        "name": "eventName",
+                        "type": "String"
+                    },{
+                        "name": "fn",
+                        "type": "Function/String"
+                    },{
+                        "name": "[scope]",
+                        "type": "Object(optional)"
+                    },{
+                        "name": "[options]",
+                        "type": "Object(optional)"
+                    }]
+                }]
+            }
+        }
+    }
+}
